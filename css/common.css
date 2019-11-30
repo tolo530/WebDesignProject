@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Typography */
+h1 {
+    font-family: Baskerville, Times, 'Times New Roman', serif;
+    font-size: 75px;
+    color: #904317;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+}
+
+h2 {
+    font-family: georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #3E2F2F;
+    letter-spacing: 0;
+    line-height: 1.429em;
+    padding: 0;
+    text-align: center;
+}
+
+h2 span {
+    font-family: baskerville, 'palatino linotype', georgia, serif;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+
+/* Header */
+header h1 {
+    color: #d54d7b;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 100px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+}
+
+/* Nav bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+
+
+
+/* Footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+footer li {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* Util */
+.flexcontainer {
+    display: flex;
+}
+
+.active {
+    background-color: chocolate;
+}
