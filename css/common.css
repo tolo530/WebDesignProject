@@ -37,10 +37,16 @@ h2 span {
 
 }
 
+header{
+    width: 100%;
+    min-height: 82px;
+}
+
 header img 
 {
-    margin-right: 500px;
-    margin-left: 500px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Nav bar */
