@@ -37,8 +37,13 @@ h2 span {
 
 }
 
+header{
+    background-image:  background-image: url("../static/img/TeaShop.jpg");
+
+}
+
 /* Header */
-header h1 {
+/*header h1 {
     color: #d54d7b;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 100px;
@@ -46,7 +51,8 @@ header h1 {
     margin-bottom: 0px;
     text-align: center;
     text-shadow: 0 1px 1px #fff;
-}
+    
+}*/
 
 /* Nav bar */
 nav ul {
