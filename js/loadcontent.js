@@ -23,7 +23,43 @@ function active_drink(content) {
             <div class="drinkentry">
                 <div class="drinkinfo">
                     <h3>Jasmine</h3>
-                    <p>Green tea, jasmine</p>
+                    <p>Green tea and jasmine</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Mil Flores</h3>
+                    <p>Black tea with flowers</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Alhambra</h3>
+                    <p>Black tea, green tea, rose and citrics</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Albacin</h3>
+                    <p>Black tea, citric, azahar, and flowers</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Amantes</h3>
+                    <p>Black tea, citric, hibiscus and mallow</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Embrujo</h3>
+                    <p>Black tea, green tea, citrics, flowers and spices</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Mil y Una Noches</h3>
+                    <p>Green tea, black tea and flowers</p>
                 </div>
             </div>
         `   
