@@ -11,7 +11,7 @@ body {
 h1 {
     font-family: Baskerville, Times, 'Times New Roman', serif;
     font-size: 75px;
-    color: #904317;
+    color: #000000;
     font-variant: small-caps;
     text-align: center;
     font-weight: bold;
@@ -23,7 +23,7 @@ h2 {
     font-family: georgia, serif;
     font-size: 18px;
     font-style: italic;
-    color: #3E2F2F;
+    color: rgb(0, 0, 0);
     letter-spacing: 0;
     line-height: 1.429em;
     padding: 0;
@@ -86,6 +86,10 @@ nav li a:hover {
 /* Content */
 #content {
     margin: 50px 100px 100px 100px;
+}
+
+article{
+    width: 100%;
 }
 
 

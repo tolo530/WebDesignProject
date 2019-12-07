@@ -15,12 +15,27 @@ aside {
 
 .aside-elem:hover{
     background-color: lightgray;
+    cursor: pointer;
 }
 
 section{
     margin-left: 30px;
 }
 
-article{
+#drinksection {
     width: 100%;
+}
+
+.drinkentry{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.drinkentry img {
+    max-width: 160px;
 }

@@ -1,0 +1,27 @@
+#schedule{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+}
+
+.schedulerow{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+#scheduleheader{
+    border-bottom: 1px solid black;
+}
+
+.scheduleentry{
+    flex-grow: 1;
+    text-align: center;
+    width: 100%;
+}
