@@ -37,9 +37,15 @@ h2 span {
 
 }
 
+header{
+    width: 100%;
+    min-height: 82px;
+}
+
 header img 
 {
-    width: 300px;
+
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
