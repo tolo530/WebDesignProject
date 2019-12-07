@@ -128,25 +128,25 @@ function active_content(content) {
             <div class="itementry">
                 <div class="iteminfo">
                     <h3>Oceano</h3>
-                    <p>strawbery, raspberry, blueberry and blackberry</p>
+                    <p>Strawbery, raspberry, blueberry and blackberry.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
                     <h3>Tropical</h3>
-                    <p>strawberry, peach, pear and apricot</p>
+                    <p>Strawberry, peach, pear and apricot.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
                     <h3>Isla</h3>
-                    <p>strawberry, banana, pineapple and coconut</p>
+                    <p>Strawberry, banana, pineapple and coconut.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
                     <h3>Mango</h3>
-                    <p>mango pineapple, banana, peach, and pear</p>
+                    <p>Mango pineapple, banana, peach, and pear.</p>
                 </div>
             </div>
         `
@@ -171,6 +171,23 @@ function active_content(content) {
             <div class="drinkentry">
                 <div class="drinkinfo">
 
+            `
+    }
+
+    if(content = "otherD"){
+        document.getElementById("foodsection").innerHTML = `
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Still Water</h3>
+                    <p>Bottle of 500ml</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Soda</h3>
+                    <p>Coca-cola, Fanta and Sprite</p>
+                </div>
+            </div>
             `
     }
 }
