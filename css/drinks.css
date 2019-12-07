@@ -1,0 +1,26 @@
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.aside-elem{
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 240px;
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+.aside-elem:hover{
+    background-color: lightgray;
+}
+
+section{
+    margin-left: 30px;
+}
+
+article{
+    width: 100%;
+}

@@ -1,9 +1,3 @@
-/* Content */
-#content {
-    margin: 50px 100px 100px 100px;
-    align-items: stretch;
-}
-
 /* Article - Page info */
 article {
     flex-grow: 7;

@@ -83,7 +83,10 @@ nav li a:hover {
     padding-top: 60px;
 }
 
-
+/* Content */
+#content {
+    margin: 50px 100px 100px 100px;
+}
 
 
 /* Footer */
