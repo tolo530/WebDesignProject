@@ -22,13 +22,13 @@ section{
     margin-left: 30px;
 }
 
-#drinksection {
+#itemsection {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.drinkentry{
+.itementry{
     width: 100%;
     max-width: 200px;
     padding: 10px;
