@@ -63,6 +63,7 @@ aside {
     #aside-elements {
         flex-direction: row;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     #aside-elements>* {
