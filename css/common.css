@@ -5,6 +5,7 @@ body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    min-width: 540px;
 }
 
 /* Typography */
@@ -63,6 +64,10 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(212, 212, 212);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav li {
