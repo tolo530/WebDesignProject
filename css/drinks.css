@@ -24,18 +24,12 @@ section{
 
 #drinksection {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .drinkentry{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: left;
-    justify-content: space-evenly;
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.drinkentry img {
-    max-width: 160px;
+    
+    max-width: 200px;
+    padding: 10px;
 }

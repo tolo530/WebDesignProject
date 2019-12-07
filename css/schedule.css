@@ -25,3 +25,13 @@
     text-align: center;
     width: 100%;
 }
+
+.scheduleentry{
+    padding: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    #content {
+        flex-direction: column;
+    }
+}
