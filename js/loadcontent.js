@@ -69,32 +69,57 @@ function active_drink(content) {
         document.getElementById("drinksection").innerHTML = `
             <div class="drinkentry">
                 <div class="drinkinfo">
-                    <h3>Nombre</h3>
-                    <p>Descripcion</p>
+                    <h3>Expresso</h3>
+                    <p>Concentrated coffee</p>
                 </div>
-                <img src="./static/img/aside1.jpg" alt="Sample photo">
             </div>
             <div class="drinkentry">
                 <div class="drinkinfo">
-                    <h3>Nombre</h3>
-                    <p>Descripcion</p>
+                    <h3>Americano</h3>
+                    <p>Coffee and water</p>
                 </div>
-                <img src="./static/img/aside1.jpg" alt="Sample photo">
             </div>
             <div class="drinkentry">
                 <div class="drinkinfo">
-                    <h3>Nombre</h3>
-                    <p>Descripcion</p>
+                    <h3>Hot White</h3>
+                    <p>Litte coffee and milk</p>
                 </div>
-                <img src="./static/img/aside1.jpg" alt="Sample photo">
             </div>
             <div class="drinkentry">
                 <div class="drinkinfo">
-                    <h3>Nombre</h3>
-                    <p>Descripcion</p>
+                    <h3>Capuccino</h3>
+                    <p>Coffee, milk and foam</p>
                 </div>
-                <img src="./static/img/aside1.jpg" alt="Sample photo">
             </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Latte</h3>
+                    <p>Coffe and steamed milk</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Macchiato</h3>
+                    <p>Expresoo with a small amount of milk</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Irish Coffee</h3>
+                    <p>Hot coffee, irish whiskey, sugar, stirred, and topped with cream</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Mocha</h3>
+                    <p>Chocolate-flavored variant of latte</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Vanilla</h3>
+                    <p>Vanilla-flavored variant of latte</p>
+                </div>
         `
     }
 
