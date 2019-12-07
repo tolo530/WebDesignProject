@@ -65,7 +65,7 @@ function active_content(content) {
         `   
     }
 
-    if(num == "coffee"){
+    if(content == "coffee"){
         document.getElementById("itemsection").innerHTML = `
             <div class="itementry">
                 <div class="iteminfo">
@@ -123,7 +123,7 @@ function active_content(content) {
         `
     }
 
-    if(num == "smoothies"){
+    if(content == "smoothies"){
         document.getElementById("itemsection").innerHTML = `
             <div class="itementry">
                 <div class="iteminfo">
@@ -152,7 +152,7 @@ function active_content(content) {
         `
     }
 
-    if(content = "Crepes"){
+    if(content = "crepes"){
         document.getElementById("foodsection").innerHTML = `
             <div class="drinkentry">
                 <div class="drinkinfo">
@@ -171,5 +171,6 @@ function active_content(content) {
             <div class="drinkentry">
                 <div class="drinkinfo">
 
+            `
     }
 }
