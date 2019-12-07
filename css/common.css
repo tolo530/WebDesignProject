@@ -39,8 +39,9 @@ h2 span {
 
 header img 
 {
-    margin-right: 500px;
-    margin-left: 500px; 
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Nav bar */
