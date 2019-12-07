@@ -123,4 +123,33 @@ function active_drink(content) {
         `
     }
 
+    if(num == "smoothies"){
+        document.getElementById("drinksection").innerHTML = `
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Oceano</h3>
+                    <p>strawbery, raspberry, blueberry and blackberry</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Tropical</h3>
+                    <p>strawberry, peach, pear and apricot</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Isla</h3>
+                    <p>strawberry, banana, pineapple and coconut</p>
+                </div>
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Mango</h3>
+                    <p>mango pineapple, banana, peach, and pear</p>
+                </div>
+            </div>
+        `
+    }
+
 }
