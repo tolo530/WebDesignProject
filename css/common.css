@@ -5,6 +5,7 @@ body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    min-width: 540px;
 }
 
 /* Typography */
@@ -38,6 +39,11 @@ h3{
     text-align: center;
 }
 
+p{
+    text-align: justify;
+  text-justify: auto;
+}
+
 header{
     width: 100%;
     min-height: 82px;
@@ -57,7 +63,11 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav li {
@@ -66,14 +76,14 @@ nav li {
 
 nav li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #111;
+    background-color: rgb(150, 150, 150);
 }
 
 .sticky {
@@ -102,7 +112,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: rgb(212, 212, 212);
+    color: black;
 }
 
 footer ul {
@@ -115,9 +126,16 @@ footer ul {
 
 footer li {
     display: block;
-    color: white;
     padding: 16px;
     text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited{
+    color: black;
 }
 
 /* Util */
