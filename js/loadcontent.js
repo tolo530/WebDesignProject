@@ -156,110 +156,55 @@ function active_content(content) {
         document.getElementById("itemsection").innerHTML = `
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Nutella and strawberries</h3>
-                    <p>2.5 €</p>
+                    <h3>HazelBerryAna</h3>
+                    <p>Fresh strawberries, sliced bananas, and Nutella.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Nutella, straberries and banana</h3>
-                    <p>2.5 €</p>
+                    <h3>Spicy Apple Bottoms</h3>
+                    <p>Fresh apples, cooked with cinnamon topped with caramel.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Nutella and cream cheese</h3>
-                    <p>2.5 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Nutella and walnuts</h3>
-                    <p>2.5 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Nutella and oreos</h3>
-                    <p>2 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Chocolate and strawberries</h3>
-                    <p>2 €</p>
+                    <h3>Le Classique</h3>
+                    <p>Sliced bananas and Nutella.</p>
                 </div>
             </div> <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Caramel and banana</h3>
-                    <p>2 €</p>
+                    <h3>Al Capone</h3>
+                    <p>Fresh Blackberries and sweetened mascarpone cheese.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Caramel and strawberries</h3>
-                    <p>2.5 €</p>
+                    <h3>Lemon and sugar</h3>
+                    <p>Zesty lemon juice splinkled with granulated sugar.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Caramel and peach</h3>
-                    <p>2.5 €</p>
-                </div>
-            </div>
-            <div class="iteminfo">
-                    <h3>Jam and strawberries</h3>
-                    <p>2 €</p>
+                    <h3>Walnut</h3>
+                    <p>Walnuts in caramel.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Jam, cream cheese and strawberries</h3>
-                    <p>2.5 €</p>
+                    <h3>Christine Favor</h3>
+                    <p>Bananas, strawberries, almonds, raisins and apple sauce. </p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Jam, cream cheese and walnuts</h3>
-                    <p>2.5 €</p>
+                    <h3>Extra Toppings</h3>
+                    <p>Walnuts</p>
+                    <p>Marshmallow</p>
+                    <p>Kiwi</p>
+                    <p>Cream cheese</p>
                 </div>
             </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Extras</h3>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Ice Cream</h3>
-                    <p>0.50 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Marshmallow</h3>
-                    <p>0.30 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>walnuts</h3>
-                    <p>0.50 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Kiwi</h3>
-                    <p>0.30 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Whipped Cream</h3>
-                    <p>0.30 €</p>
-                </div>
-            </div>
-
+            
             `
     }
 
@@ -268,88 +213,174 @@ function active_content(content) {
         document.getElementById("itemsection").innerHTML = `
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Cream cheese and ham</h3>
-                    <p>2.5 €</p>
+                    <h3>Caprese</h3>
+                    <p>Sliced tomato, seasoned chicken, mozzarella and garlic pesto. </p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Gouda and ham</h3>
-                    <p>2 €</p>
+                    <h3>In the club</h3>
+                    <p>Crisps slices of bacon, mozzarella, sliced tomato and sliced avocado.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Gouda, ham and spinach</h3>
-                    <p>2.5 €</p>
+                    <h3>SouthWestern</h3>
+                    <p>Grilled peppers and onions, seasoned chicken, cheddar and chipotle sauce.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Chicken, chipotle and gouda</h3>
-                    <p>2.5 €</p>
+                    <h3>King Brie</h3>
+                    <p>Creamy brie cheese with sliced apple, crisp slices of bacon and sliced turkey breasts. </p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Grilled chicken, gouda and parmesan</h3>
-                    <p>2 €</p>
+                    <h3>Ham & Cheese</h3>
+                    <p>Sliced ham and mozzarella cheese.</p>
                 </div>
             </div>
             <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Grilled chicken, spinach and gouda</h3>
-                    <p>2 €</p>
+                    <h3>Plain Jane</h3>
+                    <p>Crisp slices of bacon, ham, cheddar and a fresh cracked egg. </p>
                 </div>
             </div> <div class="itementry">
                 <div class="iteminfo">
-                    <h3>Peperoni, mushrooms, and gouda</h3>
-                    <p>2 €</p>
+                    <h3>California Sunrise</h3>
+                    <p>Sliced avocado, crisp slices of bacon, sliced tomato, cheddar and a fresh cracked egg. </p>
                 </div>
             </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Peperoni, spinach, gouda and tomato sauce</h3>
-                    <p>2.5 €</p>
-                </div>
-             </div>   
+              
             <div class="itementry">
                 <div class="iteminfo">
                     <h3>Extras</h3>
+                    <p>Tomato Sauce</p>
+                    <p>Gouda </p>
+                    <p>Cheddar </p>
+
                 </div>
             </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Tomato sauce</h3>
-                    <p>0.30 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Gouda </h3>
-                    <p>0.30 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Ham </h3>
-                    <p>0.50 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Chicken </h3>
-                    <p>0.80 €</p>
-                </div>
-            </div>
-            <div class="itementry">
-                <div class="iteminfo">
-                    <h3>Cheddar </h3>
-                    <p>0.30 €</p>
-                </div>
+         
             `
     }
 
+     if(content == "waffles"){
+        document.getElementById("itemsection").innerHTML = `
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>The chocolate</h3>
+                    <p>Nutella or Belgian Chocolate. </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>The Sin </h3>
+                    <p>Banana and Nutella. </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Strawberry Glamour </h3>
+                    <p>Strawberries and Belgian Chocolate. </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>The gourmand</h3>
+                    <p>Banana, Whipped cream and Caramel. </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Fruit Delight</h3>
+                    <p>Banana, Strawberries and Belgian Chocolate. </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Oreo Freakin' Party</h3>
+                    <p>Oreos, Raspberries and Whipped cream. </p>
+                </div>
+            </div> <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Berries Insanity </h3>
+                    <p>Strawberries, Raspberries, Bluberries and Blackberries.  </p>
+                </div>
+            </div>
+              
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Extras</h3>
+                    <p>Whipped cream. </p>
+                    <p>Ice Cream.  </p>
+                    <p>Caramel.  </p>
+                    <p>Liquid Chocolate. </p>
+
+                </div>
+            </div>
+         
+            `
+    }
+
+
+    f(content == "sandwiches"){
+        document.getElementById("itemsection").innerHTML = `
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Classic</h3>
+                    <p>Ham and Double cheese. </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3> Green</h3>
+                    <p>Avocado, Spinach and Panela Cheese. </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>BLT </h3>
+                    <p>Crispy bacon, Swiss cheese, tomato and lettuce. </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Beach</h3>
+                    <p>Tuna, Swiss cheese, jalapeno and alfalfa.  </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Euro</h3>
+                    <p>Turkey breasts, Panela cheese, spinach and alfalfa.  </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Finest</h3>
+                    <p>Grilled chicken breasts and Swiss cheese. </p>
+                </div>
+            </div> <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Boss</h3>
+                    <p>Ham, double cheese, bacon bits and chipotle sauce.  </p>
+                </div>
+            </div>
+            <div class="itementry">
+                <div class="iteminfo">
+                    <h3>Extras</h3>
+                    <p>Avocado. </p>
+                    <p>Cheese. </p>
+                    <p>Bacon.  </p>
+                    <p>Alfalfa. </p>
+
+                </div>
+            </div>
+         
+            `
+    }
     if(content = "otherD"){
         document.getElementById("foodsection").innerHTML = `
             <div class="drinkentry">
