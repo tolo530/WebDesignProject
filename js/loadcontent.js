@@ -1,4 +1,4 @@
-function active_drink(content) {
+function active_content(content) {
     
     if(content == "tea"){
         document.getElementById("drinksection").innerHTML = `
@@ -98,4 +98,24 @@ function active_drink(content) {
         `
     }
 
+    if(content = "Crepes"){
+        document.getElementById("foodsection").innerHTML = `
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Nutella and strawberries</h3>
+                    <p>2.5</p>
+                </div>
+                <img src="./static/img/aside1.jpg" alt="Sample photo">
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+                    <h3>Nutella, straberries and banana</h3>
+                    <p>Descripcion</p>
+                </div>
+                <img src="./static/img/aside1.jpg" alt="Sample photo">
+            </div>
+            <div class="drinkentry">
+                <div class="drinkinfo">
+
+    }
 }
