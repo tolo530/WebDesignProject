@@ -6,7 +6,10 @@ body {
     font: inherit;
     vertical-align: baseline;
     min-width: 540px;
+    background-image: url("../static/img/fondo.jpg");
+    background-size: cover;
 }
+
 
 /* Typography */
 h1 {
@@ -47,6 +50,7 @@ p{
 header{
     width: 100%;
     min-height: 82px;
+    background-color: white;
 }
 
 header img 
@@ -63,7 +67,9 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(212, 212, 212);
+    background-color:#C2E8AD;
+;
+   /* background-color: rgb(212, 212, 212);*/
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -112,8 +118,9 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(212, 212, 212);
+    /*background-color: rgb(212, 212, 212);*/
     color: black;
+    background-color:#C2E8AD;
 }
 
 footer ul {
@@ -128,6 +135,7 @@ footer li {
     display: block;
     padding: 16px;
     text-decoration: none;
+
 }
 
 footer a {
