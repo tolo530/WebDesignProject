@@ -33,7 +33,7 @@ function active_content(content) {
                 </div>
             </div>
             <div class="itementry">
-                <div class="iteminfo">
+                <itemsectiondiv class="iteminfo">
                     <h3>Alhambra</h3>
                     <p>Black tea, green tea, rose and citrics</p>
                 </div>
@@ -383,15 +383,15 @@ function active_content(content) {
     }
 
     if(content == "otherD"){
-        document.getElementById("foodsection").innerHTML = `
-            <div class="drinkentry">
-                <div class="drinkinfo">
+        document.getElementById("itemsection").innerHTML = `
+            <div class="itementry">
+                <div class="iteminfo">
                     <h3>Still Water</h3>
                     <p>Bottle of 500ml</p>
                 </div>
             </div>
-            <div class="drinkentry">
-                <div class="drinkinfo">
+            <div class="itementry">
+                <div class="iteminfo">
                     <h3>Soda</h3>
                     <p>Coca-cola, Fanta and Sprite</p>
                 </div>
