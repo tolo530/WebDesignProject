@@ -325,7 +325,7 @@ function active_content(content) {
     }
 
 
-    f(content == "sandwiches"){
+    if(content == "sandwiches"){
         document.getElementById("itemsection").innerHTML = `
             <div class="itementry">
                 <div class="iteminfo">
@@ -381,7 +381,8 @@ function active_content(content) {
          
             `
     }
-    if(content = "otherD"){
+
+    if(content == "otherD"){
         document.getElementById("foodsection").innerHTML = `
             <div class="drinkentry">
                 <div class="drinkinfo">
